@@ -123,6 +123,7 @@ nav:
         - software-engineering/programming/basic-tools/git.md
       - Python:
         - software-engineering/programming/python/index.md
+        - software-engineering/programming/python/use-cases.md
       - JavaScript:
         - software-engineering/programming/javascript/index.md
       - C:
