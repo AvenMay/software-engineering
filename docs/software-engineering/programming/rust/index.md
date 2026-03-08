@@ -1,14 +1,13 @@
 # Rust
 
-## CORE CONTENT
-
-### Documentions
+## Resources
 
 - [Rust Official](https://rust-lang.org/)
+- [Awesome-Rust](https://github.com/rust-unofficial/awesome-rust)
 
 ------
 
-### Books
+## Books
 
 - [Rust 程序设计语言](https://kaisery.github.io/trpl-zh-cn/)
 - [通过例子学 Rust](https://rustwiki.org/zh-CN/rust-by-example/)
@@ -17,32 +16,10 @@
 
 ------
 
-### Compilers
+## Compilers
 
 |Compilers |Implementation Language|Runtime Enviromnet|
 |:-----------:|:------------------:|:----------------:|
 |rustc        |Rust                |Multiple OS       |
 |gccrs        |C/C++               |Multiple OS       |
 |mrustc       |C++                 |Multiple OS       |
-
-------
-
-### Resource
-
-[Awesome-Rust](https://github.com/rust-unofficial/awesome-rust)
-
-## USE-CASES
-
-### CLI/TUI Programming
-
-------
-
-### WebAssembly
-
-------
-
-### Network Programming
-
-------
-
-### Embedded

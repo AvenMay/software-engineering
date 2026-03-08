@@ -108,16 +108,16 @@ nav:
   - Software-Engineering:
     - software-engineering/index.md
 
-    - Software-Design:
-      - software-engineering/software-design/index.md
-      - software-engineering//software-design/design-patterns.md
+    # - Software-Design:
+    #   - software-engineering/software-design/index.md
+    #   - software-engineering//software-design/design-patterns.md
     - Programming:
       - software-engineering/programming/index.md
       - Preparation:
         - software-engineering/programming/preparation/ranking-analysis.md
         - software-engineering/programming/preparation/encoding.md
         - software-engineering/programming/preparation/interfaces.md
-        - software-engineering//software-design/best-practices.md
+        - software-engineering/programming/preparation/best-practices.md
       - Basic-Tools:
         - software-engineering/programming/basic-tools/editor.md
         - software-engineering/programming/basic-tools/git.md
@@ -126,18 +126,27 @@ nav:
         - software-engineering/programming/python/use-cases.md
       - JavaScript:
         - software-engineering/programming/javascript/index.md
+        - software-engineering/programming/javascript/use-cases.md
       - C:
         - software-engineering/programming/c/index.md
+        - software-engineering/programming/c/use-cases.md
       - Go:
         - software-engineering/programming/go/index.md
+        - software-engineering/programming/go/use-cases.md
       - Java:
         - software-engineering/programming/java/index.md
+        - software-engineering/programming/java/use-cases.md
       - C#:
         - software-engineering/programming/csharp/index.md
-      - Rust:
-        - software-engineering/programming/rust/index.md
+        - software-engineering/programming/csharp/use-cases.md
       - C++:
         - software-engineering/programming/cpp/index.md
+        - software-engineering/programming/cpp/use-cases.md
+      - Rust:
+        - software-engineering/programming/rust/index.md
+        - software-engineering/programming/rust/use-cases.md
+
+
       - Assembly:
           - software-engineering/programming/assembly/index.md
           - software-engineering/programming/assembly/x86.md
@@ -156,12 +165,10 @@ nav:
       - Small-Script:
         - software-engineering/programming/small-script/lua.md
         - software-engineering/programming/small-script/perl.md
-      - Zig:
-        - software-engineering/programming/zig/index.md
+      # - Zig:
+      #   - software-engineering/programming/zig/index.md
       - Parallel:
         - software-engineering/programming/parallel/index.md
-    # - Testing:
-    #     - software-engineering/testing/index.md
 
     - Databases:
       - software-engineering/databases/index.md
@@ -244,8 +251,6 @@ nav:
   # Computer-Engineering Topic
   - Computer-Engineering:
     - computer-engineering/index.md
-    - Computer-Architecture:
-      - computer-engineering/computer-architecture/index.md
     - Embedded-System:
       - computer-engineering/embedded-system/index.md
       - computer-engineering/embedded-system/mcu.md

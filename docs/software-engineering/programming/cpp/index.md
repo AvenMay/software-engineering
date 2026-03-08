@@ -1,14 +1,13 @@
 # C++
 
-## CORE CONTENT
-
-### Documentions
+## Documentions
 
 - [ISO C++](https://isocpp.org/)
+- [Awesome-Cpp](https://github.com/fffaraz/awesome-cpp)
 
 ------
 
-### Books
+## Books
 
 - [C++Primer 5th.pdf]({{ files_server }}/software-engineering/programming/cpp/C++Primer%205th.pdf)
 - [C++标准库 2nd.pdf]({{ files_server }}/software-engineering/programming/cpp/C++%E6%A0%87%E5%87%86%E5%BA%93%202nd.pdf)
@@ -19,7 +18,7 @@
 
 ------
 
-### Compilers
+## Compilers
 
 |Compilers |Implementation Language|Runtime Enviromnet|
 |:-----------:|:-----------------:|:----------------:|
@@ -47,19 +46,3 @@
 |Embedded|arm-none-eabi-gcc |libstdc++|Newlib|
 |Android NDK|Clang |libc++|Bionic|
 |Game Engine|Any |EASTL|Newlib/Custom|
-
-## USE-CASES
-
-### CLI/TUI Programming
-
-------
-
-### WebAssembly
-
-------
-
-### Network Programming
-
-------
-
-### Embedded

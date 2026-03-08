@@ -1,27 +1,18 @@
 # JavaScript
 
-## CORE CONTENT
-
-### Documentation
+## Resources
 
 - [ECMAScript Documentations](https://ecma262.com/c/)
 - [MDN JavaScript Guide](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
+- [Awesome-JavaScript](https://github.com/sorrycc/awesome-javascript)
+- [Awesome-JavaScript-CN](https://github.com/jobbole/awesome-javascript-cn)
+- [JSLinux](https://bellard.org/jslinux/)
+- [Javascript-Algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 ------
 
-### JavaScript Engines
-
-- [WHATWG](https://whatwg.org/)
-- [V8 Engine](https://v8.dev/)
-- [SpiderMonkey](https://spidermonkey.dev/)
-- [JavaScriptCore](https://docs.webkit.ac.cn/Deep%20Dive/JSC/JavaScriptCore.html)
-- [QuickJS](https://bellard.org/quickjs/)
-- [Hermes](https://github.com/facebook/hermes/blob/main/README.md)
-
-------
-
-### Books
+## Books
 
 - [JavaScript DOM编程艺术(第2版).pdf]({{ files_server }}/software-engineering/programming/javascript/JavaScript%20DOM%E7%BC%96%E7%A8%8B%E8%89%BA%E6%9C%AF%28%E7%AC%AC2%E7%89%88%29.pdf)
 - [JavaScript异步编程：设计快速响应的网络应用.pdf]({{ files_server }}/software-engineering/programming/javascript/JavaScript%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%EF%BC%9A%E8%AE%BE%E8%AE%A1%E5%BF%AB%E9%80%9F%E5%93%8D%E5%BA%94%E7%9A%84%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8.pdf)
@@ -31,16 +22,6 @@
 - [JavaScript高级程序设计（第4版）.pdf]({{ files_server }}/software-engineering/programming/javascript/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89.pdf)
 
 
-
-------
-
-### Resources
-
-- [Awesome-JavaScript](https://github.com/sorrycc/awesome-javascript)
-- [Awesome-JavaScript-CN](https://github.com/jobbole/awesome-javascript-cn)
-- [JSLinux](https://bellard.org/jslinux/)
-- [Javascript-Algorithms](https://github.com/trekhleb/javascript-algorithms)
-
 ------
 
 ## TypeScript
@@ -49,170 +30,11 @@
 
 ------
 
-## Use-Cases
+## JavaScript Engines
 
-- [Web Browser](/internet-system/application-system/web/client/browser/)
-
-### Runtimes
-
-- [Node.js](https://nodejs.org/)
-    - npm
-    - pnpm
-    - yarn
-- [Bun](https://bun.com/)
-- [Deno](https://deno.com/)
-
-------
-
-### CLI/TUI Programming
-
-- Commander.js
-- yargs
-
-- TUI
-    - Blessed
-    - Inquirer
-    - Ora
-    - Prompt Toolkit
-    - Terminal Kit
-
-------
-
-### GUI Programming
-
-- Electron
-- NW.js
-- React-Native
-
-------
-
-### Network Programming
-
-- [Node.js Docs](https://nodejs.org/docs/latest/api/)
-- [深入浅出Node.js.pdf]({{ files_server }}/software-engineering/programming/javascript/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js.pdf)
-
-------
-
-### Web/API Application Server
-
-- Auth
-    - Auth0
-    - Kinde Auth
-    - NextAuth.js
-    - Passport.js
-
-- ORM
-    - Drizzle-ORM
-
-- Frameworks
-    - Express.js
-    - Koa.js
-    - NestJS
-    - Hono
-
-- Schema-Validation
-    - Ajv
-    - Joi
-    - Superstruct
-    - Validator.js
-    - Yup
-    - Zod
-
-- SSR-SSR-Frameworks
-    - Next.js
-    - Nuxt.js
-
-------
-
-### Monitoring
-
-------
-
-### Testing
-
-------
-
-### Scripting
-
-------
-
-### Cryptography
-
-------
-
-## Edge Computing Use-Cases
-
-------
-
-### Edge-Runtimes
-
-- Cloudflare Workers
-- Vercel Edge Runtime
-- Deno Deploy
-- WasmEdge
-- CDN 逻辑增强
-    - 智能缓存策略（动态 TTL、个性化缓存）
-    - 动态图片/内容裁剪与压缩
-    - URL 重写、缓存 Key 定制
-      - 👉 比纯 CDN 更灵活，可写逻辑进行缓存分析与命中优化
-
-- API 前置层（API Gateway on Edge）
-    - 请求路由 / 聚合 / 转发
-    - Webhook 预处理
-    - Header 增减与协议转换（REST ↔ GraphQL）
-    - 负载均衡、A/B 实验、灰度发布
-      - 👉 将一部分服务逻辑前移，减少回源压力
-
-- Proxy / 安全访问控制
-    - Auth 验证（JWT / OAuth）
-    - DDoS & Bot Filter 初步筛选
-    - IP / 地区访问控制
-    - Rate Limiting 限流
-    - 隐藏源站（作为反向代理）
-    - 👉 提前阻挡恶意流量，保护后端
-
-- 个性化内容与边缘渲染
-    - 对用户地区 / Cookie / Device 做实时裁剪
-    - A/B 测试和实验投放
-    - 静态站点的边缘 SSR（如 Next.js Edge）
-    - Landing page 个性化（营销场景）
-    - 👉 动态但低延迟的内容定制
-
-- 隐私计算与数据分散
-    - 用户数据就近处理（隐私优先）
-    - 边缘缓存 + K/V 存储（Cloudflare KV / Durable Objects）
-    - 地域合规处理：数据不跨出区域
-    - 👉 常用于 GDPR、跨区存储敏感数据
-
-- IoT & 实时流数据处理（轻量 JS）
-    - 本地协议转换（MQTT → HTTP）
-    - 实时预处理后送回云端
-    - 数据过滤、降采样
-    - 👉 JS + 小型 Wasm 模块加速：适合工业/零售边缘节点
-
-- 多媒体近边缘处理
-    - 视频预裁剪／水印
-    - 音频转码（轻量场景）
-    - 图片智能处理（WebP/AVIF）
-    - 👉 降低带宽消耗、提升页面加载速度
-
-- 电商 / 广告实时逻辑
-    - 实时定价、推荐、优惠计算
-    - 风控模型本地判断（小模型）
-    - Anti-fraud 校验前置
-    - 👉 降低延迟对转化率非常关键
-
-- WebAssembly 扩展的高性能任务
-    - 小型 AI 推理
-    - 正则/压缩/加密加速
-    - 金融运算安全沙箱
-    - 👉 JS + WASM 在边缘是趋势（更快、更安全）
-
-------
-
-## Embedded
-
-- Espruino
-- JerryScript
-- Duktape
-- Duktape
+- [WHATWG](https://whatwg.org/)
+- [V8 Engine](https://v8.dev/)
+- [SpiderMonkey](https://spidermonkey.dev/)
+- [JavaScriptCore](https://docs.webkit.ac.cn/Deep%20Dive/JSC/JavaScriptCore.html)
+- [QuickJS](https://bellard.org/quickjs/)
+- [Hermes](https://github.com/facebook/hermes/blob/main/README.md)

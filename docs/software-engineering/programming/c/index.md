@@ -1,10 +1,9 @@
 # C
 
-## CORE CONTENT
-
-### Documentions
+### Resources
 
 - [C Programming](https://www.c-language.org/)
+- [Awesome-C](https://github.com/oz123/awesome-c)
 
 ------
 
@@ -49,24 +48,4 @@
 |NetBSD libc   |NetBSD     |
 |OpenBSD libc   |OpenBSD     |
 
-------
 
-### Resource
-
-[Awesome-C](https://github.com/oz123/awesome-c)
-
-## USE-CASES
-
-### CLI/TUI Programming
-
-------
-
-### WebAssembly
-
-------
-
-### Network Programming
-
-------
-
-### Embedded

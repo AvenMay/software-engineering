@@ -1,36 +1,13 @@
 # Java
 
-## CORE CONTENT
+## Resources
 
-### JVMs
-
-|JVM         |Implementation Language|Runtime Enviromnet|
-|:-----------:|:---------------------:|:----------------:|
-|HotSpot       |C++/Java              |Multiple OS|
-|OpenJ9        |C++/Java              |Multiple OS|
-|Zulu OpenJDK  |C++                   |Multiple OS|
-|GraalVM CE/EE |C/Java                |Multiple OS|
-|Gorretto      |C++                   |Multiple OS|
+- [Awesome-Java](https://github.com/akullpp/awesome-java)
+- [JavaGuide](https://javaguide.cn/)
 
 ------
 
-### More Runtimes
-
-|Runtimes |Implementation Language|Runtime Enviromnet|
-|:-----------:|:-----------------:|:----------------:|
-|Android ART |C++                   |Android|
-|Avian       |C++                   |Embedded|
-
-------
-
-### Package-Management
-
-- Gradle
-- Maven
-
-------
-
-### Books
+## Books
 
 - [Java技术手册（第6版）.pdf]({{ files_server }}/software-engineering/programming/java/Java%E6%8A%80%E6%9C%AF%E6%89%8B%E5%86%8C%EF%BC%88%E7%AC%AC6%E7%89%88%EF%BC%89.pdf)
 - [Java核心技术·卷 I 10th 基础知识.pdf]({{ files_server }}/software-engineering/programming/java/Java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%C2%B7%E5%8D%B7%20I%2010th%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.pdf)
@@ -44,84 +21,28 @@
 
 ------
 
-### Resource
-
-- [Awesome-Java](https://github.com/akullpp/awesome-java)
-- [JavaGuide](https://javaguide.cn/)
-
-### Groovy
+## Groovy
 
 - [Groovy](https://groovy-lang.org/)
 - [Groovy程序设计.pdf]({{ files_server }}/software-engineering/programming/java/Groovy%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf)
 
+------
 
-## USE-CASES
+## JVMs
 
-### Enterprise Web/API Application Server
-
-- [Spring Boot in Action.pdf]({{ files_server }}/software-engineering/programming/java/Spring%20Boot%20in%20Action.pdf)
-- [Spring in Action 2nd.epub]({{ files_server }}/software-engineering/programming/java/Spring%20in%20Action%202nd.epub)
-- [Spring技术内幕.epub]({{ files_server }}/software-engineering/programming/java/Spring%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95.epub)
-- [JavaWeb-Project-Source-Share](https://github.com/coderzcr/JavaWeb-Project-Source-Share)
-- [Jakarta EE(Java EE)](https://jakarta.ee/zh/)
-    - GlassFish
-    - WildFly/JBoss
-    - Payara Server
-    - TomEE
-    - WebLogic
-    - WebSphere
-- [Spring](https://spring.io/)
-- [Struts](https://struts.apache.org/)
-- Hibernate
-- MyBatis
-- EhCache
-- Resilience4j
+|JVM         |Implementation Language|Runtime Enviromnet|
+|:-----------:|:---------------------:|:----------------:|
+|HotSpot       |C++/Java              |Multiple OS|
+|OpenJ9        |C++/Java              |Multiple OS|
+|Zulu OpenJDK  |C++                   |Multiple OS|
+|GraalVM CE/EE |C/Java                |Multiple OS|
+|Gorretto      |C++                   |Multiple OS|
 
 ------
 
-### Big Data
+## More Runtimes
 
-------
-
-### HP-Backend/Compute
-
-------
-
-### Microservices
-
-------
-
-### CLI/TUI Programming
-
-- Apache Commons CLI
-- JCommander
-- Maven
-- Picocli
-- TUI
-    - JLine
-    - Lanterna
-
-------
-
-### GUI Programming
-
-- JavaFX
-- Swing
-
-------
-
-### Network Programming
-
-------
-
-### Databases Programming
-
-------
-
-### Android Development
-
-------
-
-### Testing
-
-- JUnit
+|Runtimes |Implementation Language|Runtime Enviromnet|
+|:-----------:|:-----------------:|:----------------:|
+|Android ART |C++                   |Android|
+|Avian       |C++                   |Embedded|

@@ -1,6 +1,45 @@
 # Use-Cases
 
-### CLI/TUI Programming
+## Project Tools
+
+Official Dependency Management
+
+- pip
+- requirements.txt / pyprojcet.toml
+
+Official Virtual Environment Management
+
+- venv
+- virtualenv
+
+Morden Management Tools
+
+- uv
+- Poetry
+- PDM
+
+Three-party Packaging and Release
+
+- setuptools
+- Flit
+- Hatch
+- twine
+
+Automated tasks and tests
+
+- tox
+- nox
+- pytest
+- mypy
+
+Beautiful Code
+
+- Ruff
+
+------
+
+
+## CLI/TUI Programming
 
 |Module|CLI   |TUI   |
 |:----:|:----:|:----:|
@@ -19,7 +58,7 @@
 
 ------
 
-### GUI Programming
+## GUI Programming
 
 - Tkinter
 - PyQt/PySide
@@ -27,7 +66,7 @@
 
 ------
 
-### Network Programming
+## Network Programming
 
 - [Python网络编程攻略 PDF]({{ files_server }}/software-engineering/programming/python/advanced/Python网络编程攻略.pdf)
 
@@ -77,14 +116,14 @@
 
 ------
 
-### Scripting
+## Scripting
 
 - subprosess
 - sh
 
 ------
 
-### Web/API Application-Server
+## Web/API Application-Server
 
 - [WSGI](https://docs.python.org/3/library/wsgiref.html)
     - uWSGI
@@ -122,7 +161,7 @@
 
 ------
 
-### Web Crawler
+## Web Crawler
 
 - [Python3 反爬虫原理与绕过实战 PDF]({{ files_server }}/software-engineering/programming/python/advanced/Python3%20反爬虫原理与绕过实战.pdf)
 - [Python3 网络爬虫开发实战 第2版 PDF]({{ files_server }}/software-engineering/programming/python/advanced/Python3%20网络爬虫开发实战%20第2版.pdf)
@@ -150,7 +189,7 @@
 
 ------
 
-### Database Connecter
+## Database Connecter
 
 - ORM
     - SQLAlechemy
@@ -169,17 +208,13 @@
 
 ------
 
-### Logging Tools
+## Logging Tools
 
 - Loguru
 
 ------
 
-## ADVANCED USE-CASES
-
-------
-
-### Automated Testing
+## Automated Testing
 
 - [Python自动化测试实战 PDF]({{ files_server }}/software-engineering/programming/python/advanced/Python自动化测试实战%20.pdf)
 - pytest
@@ -188,7 +223,7 @@
 
 ------
 
-### Automated-Operations
+## Automated-Operations
 
 - [Python Linux系统管理与自动化运维 PDF]({{ files_server }}/software-engineering/programming/python/advanced/Python%20Linux系统管理与自动化运维.pdf)
 - [Python自动化运维 EPUB]({{ files_server }}/software-engineering/programming/python/advanced/Python自动化运维.epub)
@@ -196,7 +231,7 @@
 
 ------
 
-### Data-Science
+## Data-Science
 
 - Tools
     - JupyterLab
@@ -220,7 +255,7 @@
 
 ------
 
-### Cryptography
+## Cryptography
 
 - [Python密码学编程 EPUB]({{ files_server }}/software-engineering/programming/python/advanced/Python密码学编程.epub)
 - cryptography
@@ -240,7 +275,7 @@
 
 ------
 
-### Embedded/IoT
+## Embedded/IoT
 
 - MicroPython
 - CircuitPython
@@ -254,7 +289,7 @@
 
 ------
 
-### Game Development
+## Game Development
 
 - Pygame
 - Arcade

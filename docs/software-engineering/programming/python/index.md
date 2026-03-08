@@ -1,11 +1,12 @@
 # Python
 
-## Python Resources
+## Resources
 
 - [Python Documentation](https://docs.python.org/3/)
 - [Python Official](https://www.python.org/)
 - [Python Standard Library](https://docs.python.org/zh-cn/3/library/index.html)
 - [PyPI - The Python Package Index](https://pypi.org/)
+- [Awesome-Python](https://github.com/vinta/awesome-python)
 
 ------
 
@@ -18,44 +19,6 @@
 - [Type Hints [PEP 484]](https://peps.python.org/pep-0484/)
 - [Literal String Interpolation [PEP 498]](https://peps.python.org/pep-0498/)
 - [Assignment Expressions [PEP 572]](https://peps.python.org/pep-0572/)
-
-------
-
-## Project Tools
-
-Official Dependency Management
-
-- pip
-- requirements.txt / pyprojcet.toml
-
-Official Virtual Environment Management
-
-- venv
-- virtualenv
-
-Morden Management Tools
-
-- uv
-- Poetry
-- PDM
-
-Three-party Packaging and Release
-
-- setuptools
-- Flit
-- Hatch
-- twine
-
-Automated tasks and tests
-
-- tox
-- nox
-- pytest
-- mypy
-
-Beautiful Code
-
-- Ruff
 
 ------
 
@@ -81,12 +44,6 @@ Advanced
 - [Python 3 面向对象编程.pdf]({{ files_server }}/software-engineering/programming/python/Python%203%20面向对象编程.pdf)
 - [Python高级编程.epub]({{ files_server }}/software-engineering/programming/python/Python高级编程.epub)
 - [Python高性能编程.epub]({{ files_server }}/software-engineering/programming/python/Python高性能编程.epub)
-
-------
-
-## Resource
-
-[Awesome-Python](https://github.com/vinta/awesome-python)
 
 ------
 

@@ -55,3 +55,10 @@
 - [ANSI 美国国家标准协会](https://www.ansi.org/)
 - [OASIS 结构化信息标准促进组织](https://www.oasis-open.org/)
 - [ITIL 信息技术基础架构库](https://www.ibm.com/cn-zh/think/topics/it-infrastructure-library)
+
+## Desgin-Patterns
+
+- [Design-Patterns](https://github.com/microwind/design-patterns)
+- [大话设计模式 EPUB]({{ files_server }}/software-engineering/programming/design-patterns/大话设计模式.epub)
+- [设计模式-可复用面向对象软件的基础 PDF]({{ files_server }}/software-engineering/programming/design-patterns/设计模式-可复用面向对象软件的基础.pdf)
+- [面向对象分析与设计 PDF]({{ files_server }}/software-engineering/programming/design-patterns/面向对象分析与设计.pdf)
