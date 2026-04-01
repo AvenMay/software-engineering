@@ -268,10 +268,6 @@ nav:
         # - computer-engineering/embedded-system/use-cases/medical-devices.md
     - Hardware-Debugging:
       - computer-engineering/hardware-debugging/index.md
-    - PCB:
-      - computer-engineering/pcb/index.md
-    - SDR:
-      - computer-engineering/sdr/index.md
     - Internte-of-Things:
       - computer-engineering/iot/index.md
     - 3D-Printing:
