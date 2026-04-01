@@ -246,34 +246,6 @@ nav:
         - software-engineering/virtualization/esxi.md
         - software-engineering/virtualization/hosted-vm.md
 
-
-
-  # Computer-Engineering Topic
-  - Computer-Engineering:
-    - computer-engineering/index.md
-    - Embedded-System:
-      - computer-engineering/embedded-system/index.md
-      - computer-engineering/embedded-system/mcu.md
-      - computer-engineering/embedded-system/rtos.md
-      - computer-engineering/embedded-system/sbc.md
-      - computer-engineering/embedded-system/fpga.md
-      - computer-engineering/embedded-system/plc.md
-      - Use-Cases:
-        - computer-engineering/embedded-system/use-cases/index.md
-        - computer-engineering/embedded-system/use-cases/cyberdeck.md
-        # - computer-engineering/embedded-system/use-cases/iot-device.md
-        # - computer-engineering/embedded-system/use-cases/industrial-control.md
-        # - computer-engineering/embedded-system/use-cases/consumer-electronics.md
-        # - computer-engineering/embedded-system/use-cases/automotive-systems.md
-        # - computer-engineering/embedded-system/use-cases/medical-devices.md
-    - Hardware-Debugging:
-      - computer-engineering/hardware-debugging/index.md
-    - Internte-of-Things:
-      - computer-engineering/iot/index.md
-    - 3D-Printing:
-      - computer-engineering/3d-printing/index.md
-      - computer-engineering/3d-printing/hmi-design.md
-    
      
   # Internet-System Topic
   - Internet-System: 
@@ -444,6 +416,30 @@ nav:
     - Data-Science:
       - data-system/data-science/index.md
       
+  #  Embedded-System Topic
+  - Embedded-System:
+    - embedded-system/index.md
+    - Computer-Architecture:
+      -  embedded-system/computer-architecture/index.md
+    - Boards:
+      - embedded-system/boards/mcu.md
+      - embedded-system/boards/rtos.md
+      - embedded-system/boards/sbc.md
+      - embedded-system/boards/fpga.md
+      - embedded-system/boards/plc.md
+    - Use-Cases:
+      - embedded-system/use-cases/index.md
+      - embedded-system/use-cases/cyberdeck.md
+      # - embedded-system/use-cases/iot-device.md
+      # - embedded-system/use-cases/industrial-control.md
+      # - embedded-system/use-cases/consumer-electronics.md
+      # - embedded-system/use-cases/automotive-systems.md
+      # - embedded-system/use-cases/medical-devices.md
+    - Internte-of-Things:
+      - embedded-system/iot/index.md
+    - Hardware-Debugging:
+      - embedded-system/hardware-debugging/index.md
+  
   - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
 
 plugins:
