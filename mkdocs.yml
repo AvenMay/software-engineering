@@ -443,12 +443,6 @@ nav:
         - data-system/data-visualization/index.md
     - Data-Science:
       - data-system/data-science/index.md
-
-  # Interesting Topic
-  - Interesting-Practices:
-    # - interesting-practices/index.md
-    - HomeLab:
-      - interesting-practices/homelab/index.md
       
   - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
 
