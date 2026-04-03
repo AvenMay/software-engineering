@@ -440,7 +440,7 @@ nav:
     - Hardware-Debugging:
       - embedded-system/hardware-debugging/index.md
   
-  - Cybersecurity: https://matrix.cyberspace.bar/
+  - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
 
 plugins:
   - search
