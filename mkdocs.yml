@@ -388,10 +388,12 @@ nav:
   # Data-Systems
   - Data-System:
     - data-system/index.md
+    - Data-Analysis:
+      - data-system/data-analysis/index.md
+    - Data-Visualization:
+        - data-system/data-visualization/index.md
     - Data-Engineering:
       - data-system/data-engineering/index.md
-      - Web-Crawler:
-        - data-system/data-engineering/web-crawler/index.md
       # - ETL Processes:
       #   - data-system/data-engineering/etl-processes/index.md
       # - Data Warehousing:
@@ -408,13 +410,6 @@ nav:
       #   - data-system/data-engineering/data-governance/index.md
       - DataOps:
         - data-system/data-engineering/dataops/index.md
-
-    - Data-Analysis:
-      - data-system/data-analysis/index.md
-    - Data-Visualization:
-        - data-system/data-visualization/index.md
-    - Data-Science:
-      - data-system/data-science/index.md
       
   #  Embedded-System Topic
   - Embedded-System:
