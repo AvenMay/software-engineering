@@ -246,143 +246,137 @@ nav:
         - software-engineering/virtualization/esxi.md
         - software-engineering/virtualization/hosted-vm.md
 
-     
-  # Internet-System Topic
-  - Internet-System: 
-    - internet-system/index.md
-    - Application-System:
-      - internet-system/application-system/index.md
-      - Web-Client:
-        - internet-system/application-system/web-client/index.md
-        - internet-system/application-system/web-client/web-browser.md
-        - internet-system/application-system/web-client/cli-client.md 
-        - internet-system/application-system/web-client/client-library.md
-      - Mobile:
-        - internet-system/application-system/mobile/index.md
-      - Desktop:
-        - internet-system/application-system/desktop/index.md
-        - CLI:
-          - internet-system/application-system/desktop-client/cli/index.md
-        - Cross-Platforms:
-          - internet-system/application-system/desktop-client/cross-platforms/index.md
-      - Web-Server:
-        - internet-system/application-system/web-server/nginx.md
-        - internet-system/application-system/web-server/apache.md
-        - internet-system/application-system/web-server/openresty.md
-        - internet-system/application-system/web-server/lighttpd.md
-        - internet-system/application-system/web-server/more.md        
-      - Web-Crawler:
-        - internet-system/application-system/web-crawler/index.md
-      - internet-system/application-system/application-server.md
-      # - Application Server:
-        # - internet-system/application-system/application-server/index.md
-      #   - internet-system/application-system/application-server/use-cases.md
-        # - internet-system/application-system/application-server/tomcat.md
-        # - internet-system/application-system/application-server/jboss.md
-        # - internet-system/application-system/application-server/django.md
-        # - internet-system/application-system/application-server/other-application-servers.md
-      - API:
-        - internet-system/application-system/api/index.md
-        - internet-system/application-system/api/restful.md
-        - internet-system/application-system/api/graphql.md
-        - internet-system/application-system/api/grpc.md
-      - Protocols:
-        - internet-system/application-system/protocols/index.md
-        - internet-system/application-system/protocols/http-https.md
-        - More Application:
-          - internet-system/application-system/protocols/application/dns.md
-          - internet-system/application-system/protocols/application/email.md
-          - internet-system/application-system/protocols/application/ftp-sftp.md
-          - internet-system/application-system/protocols/application/telnet-ssh.md
-          - internet-system/application-system/protocols/application/ldap.md
-        - Logical-Transport:
-          - internet-system/application-system/protocols/logical-transport/index.md
-          - internet-system/application-system/protocols/logical-transport/ssl-tls.md
-          - internet-system/application-system/protocols/logical-transport/quic.md
-          - internet-system/application-system/protocols/logical-transport/websockets.md
-          - internet-system/application-system/protocols/logical-transport/webrtc.md
-        - Transport:
-          - internet-system/application-system/protocols/transport/index.md
-          - internet-system/application-system/protocols/transport/tcp.md
-          - internet-system/application-system/protocols/transport/udp.md
-          - internet-system/application-system/protocols/transport/sctp.md
-      - Entry:
-          - internet-system/application-system/entry/index.md
-          - internet-system/application-system/entry/dns.md
-          - internet-system/application-system/entry/cdn.md
-          - internet-system/application-system/entry/load-balancing.md
-          - internet-system/application-system/entry/reverse-proxy.md
-          - internet-system/application-system/entry/api-gateway.md
-      - Asynchronous:
-        - internet-system/application-system/asynchronous/index.md
-        - internet-system/application-system/asynchronous/event-driven.md
-        - internet-system/application-system/asynchronous/pub-sub.md
-        - internet-system/application-system/asynchronous/message-queues.md
-        - internet-system/application-system/asynchronous/task-queues.md
-      # - Caching:
-      #   - internet-system/application-system/caching/index.md
-        # - internet-system/application-system/caching/in-memory-caching.md
-        # - internet-system/application-system/caching/distributed-caching.md
-      - internet-system/application-system/caching.md
-      - internet-system/application-system/data-persistence.md
+
+  - Application-System:
+    - application-system/index.md
+    - Web-Client:
+      - application-system/web-client/index.md
+      - application-system/web-client/web-browser.md
+      - application-system/web-client/cli-client.md 
+      - application-system/web-client/client-library.md
+    - Mobile:
+      - application-system/mobile/index.md
+    - Desktop:
+      - application-system/desktop/index.md
+      - CLI:
+        - application-system/desktop-client/cli/index.md
+      - Cross-Platforms:
+        - application-system/desktop-client/cross-platforms/index.md
+    - Web-Server:
+      - application-system/web-server/nginx.md
+      - application-system/web-server/apache.md
+      - application-system/web-server/openresty.md
+      - application-system/web-server/lighttpd.md
+      - application-system/web-server/more.md        
+    - Web-Crawler:
+      - application-system/web-crawler/index.md
+    - application-system/application-server.md
+    # - Application Server:
+      # - application-system/application-server/index.md
+    #   - application-system/application-server/use-cases.md
+      # - application-system/application-server/tomcat.md
+      # - application-system/application-server/jboss.md
+      # - application-system/application-server/django.md
+      # - application-system/application-server/other-application-servers.md
+    - API:
+      - application-system/api/index.md
+      - application-system/api/restful.md
+      - application-system/api/graphql.md
+      - application-system/api/grpc.md
+    - Protocols:
+      - application-system/protocols/index.md
+      - application-system/protocols/http-https.md
+      - More Application:
+        - application-system/protocols/application/dns.md
+        - application-system/protocols/application/email.md
+        - application-system/protocols/application/ftp-sftp.md
+        - application-system/protocols/application/telnet-ssh.md
+        - application-system/protocols/application/ldap.md
+      - Logical-Transport:
+        - application-system/protocols/logical-transport/index.md
+        - application-system/protocols/logical-transport/ssl-tls.md
+        - application-system/protocols/logical-transport/quic.md
+        - application-system/protocols/logical-transport/websockets.md
+        - application-system/protocols/logical-transport/webrtc.md
+      - Transport:
+        - application-system/protocols/transport/index.md
+        - application-system/protocols/transport/tcp.md
+        - application-system/protocols/transport/udp.md
+        - application-system/protocols/transport/sctp.md
+    - Entry:
+        - application-system/entry/index.md
+        - application-system/entry/dns.md
+        - application-system/entry/cdn.md
+        - application-system/entry/load-balancing.md
+        - application-system/entry/reverse-proxy.md
+        - application-system/entry/api-gateway.md
+    - Asynchronous:
+      - application-system/asynchronous/index.md
+      - application-system/asynchronous/event-driven.md
+      - application-system/asynchronous/pub-sub.md
+      - application-system/asynchronous/message-queues.md
+      - application-system/asynchronous/task-queues.md
+    # - Caching:
+    #   - application-system/caching/index.md
+      # - application-system/caching/in-memory-caching.md
+      # - application-system/caching/distributed-caching.md
+    - application-system/caching.md
+    - application-system/data-persistence.md
     
-    - Network-Engineering:
-      - internet-system/network-engineering/index.md
-      - Data-Communication: 
-        - internet-system/network-engineering/datacom/index.md
-        - internet-system/network-engineering/datacom/routing.md
-        - internet-system/network-engineering/datacom/switching.md
-        - internet-system/network-engineering/datacom/emulator.md
-        - internet-system/network-engineering/datacom/security-devices.md
-        - internet-system/network-engineering/datacom/certification.md
-      - Protocols:
-        - internet-system/network-engineering/protocols/index.md
-        - internet-system/network-engineering/protocols/dhcp.md
-        - internet-system/network-engineering/protocols/ntp.md
-        - internet-system/network-engineering/protocols/snmp.md
-      - NetDevOps:
-        - internet-system/network-engineering/netdevops/index.md
-        - internet-system/network-engineering/netdevops/network-automation.md
-        - internet-system/network-engineering/netdevops/sdn.md
-        - internet-system/network-engineering/netdevops/dpt.md
-        - internet-system/network-engineering/netdevops/cloud-networking.md
-        - internet-system/network-engineering/netdevops/nfv.md
-      - Troubleshooting:
-        - internet-system/network-engineering/troubleshooting/index.md
-      - Use-Cases:
-        - internet-system/network-engineering/use-cases/index.md
-        - internet-system/network-engineering/use-cases/enterprise-network.md
-        - internet-system/network-engineering/use-cases/dcn.md
+  - Network-Engineering:
+    - network-engineering/index.md
+    - Data-Communication: 
+      - network-engineering/datacom/index.md
+      - network-engineering/datacom/routing.md
+      - network-engineering/datacom/switching.md
+      - network-engineering/datacom/emulator.md
+      - network-engineering/datacom/security-devices.md
+      - network-engineering/datacom/certification.md
+    - Protocols:
+      - network-engineering/protocols/index.md
+      - network-engineering/protocols/dhcp.md
+      - network-engineering/protocols/ntp.md
+      - network-engineering/protocols/snmp.md
+    - NetDevOps:
+      - network-engineering/netdevops/index.md
+      - network-engineering/netdevops/network-automation.md
+      - network-engineering/netdevops/sdn.md
+      - network-engineering/netdevops/dpt.md
+      - network-engineering/netdevops/cloud-networking.md
+      - network-engineering/netdevops/nfv.md
+    - Troubleshooting:
+      - network-engineering/troubleshooting/index.md
+    - Use-Cases:
+      - network-engineering/use-cases/index.md
+      - network-engineering/use-cases/enterprise-network.md
+      - network-engineering/use-cases/dcn.md
 
-    - IoT:
-        - internet-system/iot/index.md
-
-    - Infrastructure & Cloud:
-      - internet-system/infrastructure/index.md
-      - Cloud-Platforms:
-        - internet-system/infrastructure/cloud-platforms/index.md
-        - internet-system/infrastructure/cloud-platforms/aws.md
-        - internet-system/infrastructure/cloud-platforms/azure.md
-        - internet-system/infrastructure/cloud-platforms/gcp.md
-        - internet-system/infrastructure/cloud-platforms/alibaba-cloud.md
-        - internet-system/infrastructure/cloud-platforms/edge-cloud.md
-        - internet-system/infrastructure/cloud-platforms/private-cloud.md
-      - internet-system/infrastructure/index.md
-      - DevOps:
-        - internet-system/infrastructure/devops/index.md
-        - internet-system/infrastructure/devops/cicd.md
-        - internet-system/infrastructure/devops/configuration.md
-        - internet-system/infrastructure/devops/environment.md
-        - internet-system/infrastructure/devops/iac.md
-        - internet-system/infrastructure/devops/gitops.md
-        - internet-system/infrastructure/devops/deployment-strategies.md
-      - Observability:
-        - internet-system/infrastructure/observability/index.md
-        - internet-system/infrastructure/observability/monitoring.md
-      - SRE:
-        - internet-system/infrastructure/sre/index.md
-      - Platform-Engineering:
-        - internet-system/infrastructure/platform-engineering/index.md
+  - Infrastructure/Cloud:
+    - infrastructure/index.md
+    - Cloud-Platforms:
+      - infrastructure/cloud-platforms/index.md
+      - infrastructure/cloud-platforms/aws.md
+      - infrastructure/cloud-platforms/azure.md
+      - infrastructure/cloud-platforms/gcp.md
+      - infrastructure/cloud-platforms/alibaba-cloud.md
+      - infrastructure/cloud-platforms/edge-cloud.md
+      - infrastructure/cloud-platforms/private-cloud.md
+    - infrastructure/index.md
+    - DevOps:
+      - infrastructure/devops/index.md
+      - infrastructure/devops/cicd.md
+      - infrastructure/devops/configuration.md
+      - infrastructure/devops/environment.md
+      - infrastructure/devops/iac.md
+      - infrastructure/devops/gitops.md
+      - infrastructure/devops/deployment-strategies.md
+    - Observability:
+      - infrastructure/observability/index.md
+      - infrastructure/observability/monitoring.md
+    - SRE:
+      - infrastructure/sre/index.md
+    - Platform-Engineering:
+      - infrastructure/platform-engineering/index.md
 
 
   # Data-Systems
@@ -434,6 +428,9 @@ nav:
       - embedded-system/iot/index.md
     - Hardware-Debugging:
       - embedded-system/hardware-debugging/index.md
+
+  - IoT:
+    - iot/index.md
   
   - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
 
