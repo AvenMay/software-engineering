@@ -15,5 +15,4 @@
 ## IDE
 
 - Jupyter-Notebook
-- VS Code Notebook
 - Marimo

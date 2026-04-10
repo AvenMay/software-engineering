@@ -1,12 +1,12 @@
 # Data Visualization
 
-## Light
+## Lightweight
 
 - Matplotlib
 - Seaborn
 - Plotly
 
-# Screen
+## Screen
 
 - Metabase
 - Grafana

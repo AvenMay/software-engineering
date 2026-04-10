@@ -329,12 +329,12 @@ nav:
     - Network-Engineering:
       - internet-system/network-engineering/index.md
       - Data-Communication: 
-        - internet-system/network-engineering/data-communication/index.md
-        - internet-system/network-engineering/data-communication/routing.md
-        - internet-system/network-engineering/data-communication/switching.md
-        - internet-system/network-engineering/data-communication/emulator.md
-        - internet-system/network-engineering/data-communication/security-devices.md
-        - internet-system/network-engineering/data-communication/certification.md
+        - internet-system/network-engineering/datacom/index.md
+        - internet-system/network-engineering/datacom/routing.md
+        - internet-system/network-engineering/datacom/switching.md
+        - internet-system/network-engineering/datacom/emulator.md
+        - internet-system/network-engineering/datacom/security-devices.md
+        - internet-system/network-engineering/datacom/certification.md
       - Protocols:
         - internet-system/network-engineering/protocols/index.md
         - internet-system/network-engineering/protocols/dhcp.md
