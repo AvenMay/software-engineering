@@ -314,7 +314,7 @@ nav:
     
   
 
-  - Infrastructure/Cloud:
+  - Cloud-Infrastructure:
     - infrastructure/index.md
     - Cloud-Platforms:
       - infrastructure/cloud-platforms/index.md
