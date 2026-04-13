@@ -68,49 +68,11 @@ theme:
 
 # Page tree
 nav:
-  # - Home: index.md
-
-  # Computer-Science Topic
-  - Computer-Science: 
-    - computer-science/index.md
-    - Programming:
-      - computer-science/programming/index.md
-    - Algorithms & Data-Structures:
-      - computer-science/algorithms-data-structures/index.md
-      - computer-science/algorithms-data-structures/foundation.md
-      - computer-science/algorithms-data-structures/advanced.md
-      - computer-science/algorithms-data-structures/problem-solving-techniques.md
-    - Math for CS:
-      - computer-science/math-for-cs/index.md
-    - Computer-Architecture:
-      - computer-science/computer-architecture/index.md
-    - Operating-System: 
-      - computer-science/operating-system/index.md
-      - Teaching-OS:
-        - computer-science/operating-system/teaching-purposes/xv6.md
-        - computer-science/operating-system/teaching-purposes/pintos.md
-        - computer-science/operating-system/teaching-purposes/nachos.md
-        - computer-science/operating-system/teaching-purposes/minix3.md
-      - computer-science/operating-system/boot-process.md
-      - computer-science/operating-system/experimental-os.md
-    - Computer-Networking:
-      - computer-science/computer-networking/index.md
-    - Databases:
-      - computer-science/databases/index.md
-    - Languages & Compilers:
-        - computer-science/compilers/index.md
-    - Distributed-Systems:
-      - computer-science/distributed-systems/index.md
-    - Computer-Graphics:
-      - computer-science/computer-graphics/index.md
-
+ 
   # Software-Engineering Topic
   - Software-Engineering:
     - software-engineering/index.md
 
-    # - Software-Design:
-    #   - software-engineering/software-design/index.md
-    #   - software-engineering//software-design/design-patterns.md
     - Programming:
       - software-engineering/programming/index.md
       - Preparation:
@@ -246,6 +208,33 @@ nav:
         - software-engineering/virtualization/esxi.md
         - software-engineering/virtualization/hosted-vm.md
 
+  - Network-Engineering:
+      - network-engineering/index.md
+      - Data-Communication: 
+        - network-engineering/datacom/index.md
+        - network-engineering/datacom/routing.md
+        - network-engineering/datacom/switching.md
+        - network-engineering/datacom/emulator.md
+        - network-engineering/datacom/security-devices.md
+        - network-engineering/datacom/certification.md
+      - Protocols:
+        - network-engineering/protocols/index.md
+        - network-engineering/protocols/dhcp.md
+        - network-engineering/protocols/ntp.md
+        - network-engineering/protocols/snmp.md
+      - NetDevOps:
+        - network-engineering/netdevops/index.md
+        - network-engineering/netdevops/network-automation.md
+        - network-engineering/netdevops/sdn.md
+        - network-engineering/netdevops/dpt.md
+        - network-engineering/netdevops/cloud-networking.md
+        - network-engineering/netdevops/nfv.md
+      - Troubleshooting:
+        - network-engineering/troubleshooting/index.md
+      - Use-Cases:
+        - network-engineering/use-cases/index.md
+        - network-engineering/use-cases/enterprise-network.md
+        - network-engineering/use-cases/dcn.md
 
   - Application-System:
     - application-system/index.md
@@ -323,33 +312,7 @@ nav:
     - application-system/caching.md
     - application-system/data-persistence.md
     
-  - Network-Engineering:
-    - network-engineering/index.md
-    - Data-Communication: 
-      - network-engineering/datacom/index.md
-      - network-engineering/datacom/routing.md
-      - network-engineering/datacom/switching.md
-      - network-engineering/datacom/emulator.md
-      - network-engineering/datacom/security-devices.md
-      - network-engineering/datacom/certification.md
-    - Protocols:
-      - network-engineering/protocols/index.md
-      - network-engineering/protocols/dhcp.md
-      - network-engineering/protocols/ntp.md
-      - network-engineering/protocols/snmp.md
-    - NetDevOps:
-      - network-engineering/netdevops/index.md
-      - network-engineering/netdevops/network-automation.md
-      - network-engineering/netdevops/sdn.md
-      - network-engineering/netdevops/dpt.md
-      - network-engineering/netdevops/cloud-networking.md
-      - network-engineering/netdevops/nfv.md
-    - Troubleshooting:
-      - network-engineering/troubleshooting/index.md
-    - Use-Cases:
-      - network-engineering/use-cases/index.md
-      - network-engineering/use-cases/enterprise-network.md
-      - network-engineering/use-cases/dcn.md
+  
 
   - Infrastructure/Cloud:
     - infrastructure/index.md
@@ -432,7 +395,7 @@ nav:
   - IoT:
     - iot/index.md
   
-  - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
+  # - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
 
 plugins:
   - search
