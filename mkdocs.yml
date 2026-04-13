@@ -392,7 +392,7 @@ nav:
     - Hardware-Debugging:
       - embedded-system/hardware-debugging/index.md
 
-  - IoT:
+  - IoT-System:
     - iot/index.md
   
   # - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
