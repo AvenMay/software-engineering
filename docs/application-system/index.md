@@ -2,7 +2,7 @@
 
 ## System Design Resource
 
-- [搞定系统设计_面试敲开大厂的门.pdf]({{ files_server }}/internet-system/application/system-design/%E6%90%9E%E5%AE%9A%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1_%E9%9D%A2%E8%AF%95%E6%95%B2%E5%BC%80%E5%A4%A7%E5%8E%82%E7%9A%84%E9%97%A8.pdf)
+
 - [system-design-primer](https://github.com/donnemartin/system-design-primer/tree/master)
 - [system-design-101](https://github.com/ByteByteGoHq/system-design-101)
 - [SystemDesign](https://github.com/Admol/SystemDesign)
@@ -13,6 +13,9 @@
 - [The Architecture of Open Source Applications (AOSA)](https://aosabook.org/en/index.html)
 - [InfoQ - Architecture & Design](https://www.infoq.com/architecture-design/)
 - [High Scalability](https://highscalability.com/)
+
+
+- [搞定系统设计.pdf]({{ files_server }}/internet-system/application/system-design/%E6%90%9E%E5%AE%9A%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1_%E9%9D%A2%E8%AF%95%E6%95%B2%E5%BC%80%E5%A4%A7%E5%8E%82%E7%9A%84%E9%97%A8.pdf)
 
 ## Software Architecture
 
