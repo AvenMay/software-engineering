@@ -1,5 +1,13 @@
 # Software-Engineering
 
+## Desgin-Patterns
+
+- [Design-Patterns](https://github.com/microwind/design-patterns)
+- [大话设计模式 EPUB]({{ files_server }}/software-engineering/programming/design-patterns/大话设计模式.epub)
+- [设计模式-可复用面向对象软件的基础 PDF]({{ files_server }}/software-engineering/programming/design-patterns/设计模式-可复用面向对象软件的基础.pdf)
+
+------
+
 ## Masters
 
 - [自由软件，自由社会 PDF]({{ files_server }}/software-engineering/current/free-software-free-society.pdf)
@@ -18,47 +26,5 @@
 - [神经漫游者 EPUB]({{ files_server }}/software-engineering/current/%E7%A5%9E%E7%BB%8F%E6%BC%AB%E6%B8%B8%E8%80%85.epub)
 - [雪崩 EPUB]({{ files_server }}/software-engineering/current/%E9%9B%AA%E5%B4%A9.epub)
 
-## Open Source
 
 
-- [The Linux Foundation](https://www.linuxfoundation.org/)
-- [The Apache Software Foundation](https://www.apache.org/)
-- [Eclipse Foundation](https://www.eclipse.org/)
-- [Mozilla Foundation](https://www.mozillafoundation.org/)
-- [Wikimedia Foundation](https://wikimediafoundation.org/)
-- [Free Software Foundation](https://www.fsf.org/)
-- [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)
-- [OpenJS Foundation](https://openjsf.org/)
-- [OpenInfra Foundation](https://openinfra.dev/)
-
-- [Apple Open Source](https://opensource.apple.com/)
-- [Microsoft Open Source](https://opensource.microsoft.com/)
-- [Google Open Source](https://opensource.google/)
-- [Meta Open Source](https://opensource.fb.com/)
-- [Amazon Open Source](https://aws.amazon.com/opensource/)
-
-- [Alibaba Open Source](https://opensource.alibaba.com/)
-- [Tencent Open Source](https://opensource.tencent.com/)
-- [Baidu Open Source](https://opensource.baidu.com/)
-- [ByteDance Open Source](https://opensource.bytedance.com/)
-
-------
-
-## Standard
-
-- [ISO 国际标准化组织](https://www.iso.org/home.html)
-- [IETF 互联网工程任务组](https://www.ietf.org/)
-- [IEEE 电气与电子工程师协会](https://ieeexplore.ieee.org/Xplore/home.jsp)
-- [W3C 万维网联盟](https://www.w3.org/)
-- [ICANN 互联网名称与数字地址分配机构](https://www.icann.org/zh)
-- [ITU 国际电信联盟](https://www.itu.int/zh/pages/default.Aspx)
-- [ANSI 美国国家标准协会](https://www.ansi.org/)
-- [OASIS 结构化信息标准促进组织](https://www.oasis-open.org/)
-- [ITIL 信息技术基础架构库](https://www.ibm.com/cn-zh/think/topics/it-infrastructure-library)
-
-## Desgin-Patterns
-
-- [Design-Patterns](https://github.com/microwind/design-patterns)
-- [大话设计模式 EPUB]({{ files_server }}/software-engineering/programming/design-patterns/大话设计模式.epub)
-- [设计模式-可复用面向对象软件的基础 PDF]({{ files_server }}/software-engineering/programming/design-patterns/设计模式-可复用面向对象软件的基础.pdf)
-- [面向对象分析与设计 PDF]({{ files_server }}/software-engineering/programming/design-patterns/面向对象分析与设计.pdf)
