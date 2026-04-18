@@ -26,24 +26,18 @@
 
 Foundation
 
-- [Python编程从入门到实践.pdf]({{ files_server }}/software-engineering/programming/python/Python编程从入门到实践.pdf)
 - [Python工匠.epub]({{ files_server }}/software-engineering/programming/python/Python工匠.epub)
-- [Python学习手册.epub]({{ files_server }}/software-engineering/programming/python/Python学习手册.epub)
-- [简明Python教程.pdf]({{ files_server }}/software-engineering/programming/python/简明Python教程.pdf)
-
-Intermediate
-
-- [Python3标准库.pdf]({{ files_server }}/software-engineering/programming/python/Python3标准库.pdf)
-- [流畅的Python.pdf]({{ files_server }}/software-engineering/programming/python/流畅的Python.pdf)
-- [Python Cookbook.pdf]({{ files_server }}/software-engineering/programming/python/Python%20Cookbook.pdf)
-- [Effective Python.pdf]({{ files_server }}/software-engineering/programming/python/Effective%20Python.pdf)
 - [Python语言及其应用.pdf]({{ files_server }}/software-engineering/programming/python/Python语言及其应用.pdf)
+- [流畅的Python.pdf]({{ files_server }}/software-engineering/programming/python/流畅的Python.pdf)
+- [Effective Python.pdf]({{ files_server }}/software-engineering/programming/python/Effective%20Python.pdf)
 
 Advanced
 
-- [Python 3 面向对象编程.pdf]({{ files_server }}/software-engineering/programming/python/Python%203%20面向对象编程.pdf)
-- [Python高级编程.epub]({{ files_server }}/software-engineering/programming/python/Python高级编程.epub)
+- [Python Cookbook.pdf]({{ files_server }}/software-engineering/programming/python/Python%20Cookbook.pdf)
+- [Python3标准库.pdf]({{ files_server }}/software-engineering/programming/python/Python3标准库.pdf)
 - [Python高性能编程.epub]({{ files_server }}/software-engineering/programming/python/Python高性能编程.epub)
+- [Python3 面向对象编程.pdf]({{ files_server }}/software-engineering/programming/python/Python%203%20面向对象编程.pdf)
+
 
 ------
 

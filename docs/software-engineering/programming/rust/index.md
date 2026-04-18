@@ -11,7 +11,6 @@
 
 - [Rust 程序设计语言](https://kaisery.github.io/trpl-zh-cn/)
 - [通过例子学 Rust](https://rustwiki.org/zh-CN/rust-by-example/)
-- [Rust权威指南.epub]({{ files_server }}/software-engineering/programming/rust/Rust%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.epub)
 - [Rust程序设计.pdf]({{ files_server }}/software-engineering/programming/rust/Rust程序设计.pdf)
 
 ------

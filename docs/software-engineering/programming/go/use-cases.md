@@ -65,7 +65,6 @@
 
 ### Web/API Application Server
 
-- [Go Web编程.pdf]({{ files_server }}/software-engineering/programming/go/Go%20Web%E7%BC%96%E7%A8%8B.pdf)
 - Gin
 - Echo
 

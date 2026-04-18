@@ -95,40 +95,31 @@ nav:
       - Go:
         - software-engineering/programming/go/index.md
         - software-engineering/programming/go/use-cases.md
-      - Java:
-        - software-engineering/programming/java/index.md
-        - software-engineering/programming/java/use-cases.md
-      - C#:
-        - software-engineering/programming/csharp/index.md
-        - software-engineering/programming/csharp/use-cases.md
-      - C++:
-        - software-engineering/programming/cpp/index.md
-        - software-engineering/programming/cpp/use-cases.md
       - Rust:
         - software-engineering/programming/rust/index.md
         - software-engineering/programming/rust/use-cases.md
-
-
+      - Enterprise:
+        - Java:
+          - software-engineering/programming/java/index.md
+          - software-engineering/programming/java/use-cases.md
+        - C#:
+          - software-engineering/programming/csharp/index.md
+          - software-engineering/programming/csharp/use-cases.md
+        - C++:
+          - software-engineering/programming/cpp/index.md
+          - software-engineering/programming/cpp/use-cases.md
+      - Scripts:
+        - software-engineering/programming/scripts/lua.md
+        - software-engineering/programming/scripts/perl.md
+        - software-engineering/programming/scripts/ruby.md
+        - software-engineering/programming/scripts/php.md
       - Assembly:
           - software-engineering/programming/assembly/index.md
           - software-engineering/programming/assembly/x86.md
           - software-engineering/programming/assembly/arm.md
-          - software-engineering/programming/assembly/riscv.md
       - Platforms:
-        - software-engineering/programming/platform-native/swift.md
-        - software-engineering/programming/platform-native/kotlin.md
-      - Functional:
-        - software-engineering/programming/functional/lisp.md
-        - software-engineering/programming/functional/scala.md
-        - software-engineering/programming/functional/elixir.md
-      - Web-First:
-        - software-engineering/programming/web-first/ruby.md
-        - software-engineering/programming/web-first/php.md
-      - Small-Script:
-        - software-engineering/programming/small-script/lua.md
-        - software-engineering/programming/small-script/perl.md
-      # - Zig:
-      #   - software-engineering/programming/zig/index.md
+        - software-engineering/programming/platforms/swift.md
+        - software-engineering/programming/platforms/kotlin.md 
       - Parallel:
         - software-engineering/programming/parallel/index.md
 
@@ -141,10 +132,7 @@ nav:
         - software-engineering/databases/rdbms/mysql.md
         - software-engineering/databases/rdbms/oracle.md
         - software-engineering/databases/rdbms/sql-server.md
-      - NoSQL:
-        - software-engineering/databases/nosql/index.md
       - Key-Value:
-
         - software-engineering/databases/key-value/redis.md
         - software-engineering/databases/key-value/memcached.md
       - Document:
@@ -154,14 +142,15 @@ nav:
         - software-engineering/databases/search-engine/lucene.md
         - software-engineering/databases/search-engine/solr.md
         - software-engineering/databases/search-engine/splunk.md
+      - Graph:
+        - software-engineering/databases/graph/neo4j.md
       - Time-Series:
         - software-engineering/databases/time-series/influxdb.md
         - software-engineering/databases/time-series/prometheus.md
       - Wide-Column:
         - software-engineering/databases/wide-column/cassandra.md
         - software-engineering/databases/wide-column/hbase.md
-      - Graph:
-        - software-engineering/databases/graph/neo4j.md
+
     - Operating-System:
         - software-engineering/operating-system/index.md
         - Basic-Tools:

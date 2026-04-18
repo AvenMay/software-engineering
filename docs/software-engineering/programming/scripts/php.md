@@ -6,11 +6,6 @@
 
 - [PHP](https://www.php.net/)
 
-### Books
-
-- [PHP基础教程（第4版）.pdf]({{ files_server }}/software-engineering/programming/web-first/php/PHP%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89.pdf)
-- [PHP与MySQL程序设计 4th PDF]({{ files_server }}/software-engineering/programming/web-first/php/PHP与MySQL程序设计(第4版).pdf)
-
 ### Interpreters
 
 |Interpreters |Implementation Language|Runtime Enviromnet|

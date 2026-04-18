@@ -1,18 +1,9 @@
 # Programming
 
-## Books
-
-- [代码大全 2nd PDF]({{ files_server }}/software-engineering/programming/current/代码大全%202ND.pdf)
-- [代码整洁之道 EPUB]({{ files_server }}/software-engineering/programming/current/代码整洁之道.epub)
-- [修改代码的艺术 PDF]({{ files_server }}/software-engineering/programming/current/修改代码的艺术.pdf)
-- [重构与模式 EPUB]({{ files_server }}/software-engineering/programming/current/重构与模式.epub)
-- [重构-改善既有代码的设计 PDF]({{ files_server }}/software-engineering/programming/current/重构-改善既有代码的设计.pdf)
-
-------
-
 ## Projects
 
 - [Awesome Cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)
+- [Learn X in Y minutes](https://learnxinyminutes.com/)
 
 ------
 

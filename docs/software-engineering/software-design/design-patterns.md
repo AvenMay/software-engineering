@@ -1,2 +1,0 @@
-# Desgin-Patterns
-

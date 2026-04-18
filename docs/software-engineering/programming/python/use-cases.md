@@ -216,7 +216,6 @@ Beautiful Code
 
 ## Automated Testing
 
-- [Python自动化测试实战 PDF]({{ files_server }}/software-engineering/programming/python/advanced/Python自动化测试实战%20.pdf)
 - pytest
 - Robot-Framework
 - unittest
