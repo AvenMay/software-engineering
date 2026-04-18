@@ -76,9 +76,9 @@ nav:
       - programming/preparation/encoding.md
       - programming/preparation/interfaces.md
       - programming/preparation/best-practices.md
-    - Basic-Tools:
-      - programming/basic-tools/editor.md
-      - programming/basic-tools/git.md
+    - Tools:
+      - programming/tools/editor.md
+      - programming/tools/git.md
     - Python:
       - programming/python/index.md
       - programming/python/use-cases.md
@@ -149,10 +149,10 @@ nav:
 
   - Operating-System:
       - operating-system/index.md
-      - Basic-Tools:
-        - operating-system/basic-tools/terminal.md
-        - operating-system/basic-tools/ssh.md
-        - operating-system/basic-tools/multiplexer.md
+      - Tools:
+        - operating-system/tools/terminal.md
+        - operating-system/tools/ssh.md
+        - operating-system/tools/multiplexer.md
       - Unix-like:
         - operating-system/unix-like/index.md
       - GNU/Linux:
