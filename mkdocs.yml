@@ -410,8 +410,8 @@ markdown_extensions:
       generic: true 
 
 extra:
-  files_server: "https://files.cyberspace.bar/cyberspace"
-  # files_server: "https://files.cyberspace.bar/cyberspace-explore"
+  files_server: "https://files.cyberspace.bar/software-engineering"
+
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js 
