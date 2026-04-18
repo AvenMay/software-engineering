@@ -1,5 +1,5 @@
 # Project information
-site_name: Cyberspace Explore 
+site_name: Software Engineering
 use_directory_urls: true
 
 # Repository
@@ -11,7 +11,7 @@ theme:
   name: material
   custom_dir: overrides
   icon:
-    logo: material/rocket-launch
+    logo: material/application-brackets
     # repo: fontawesome/brands/github
   palette:
     - scheme: default    # 浅色模式
@@ -68,267 +68,263 @@ theme:
 
 # Page tree
 nav:
- 
-  # Software-Engineering Topic
-  - Software-Engineering:
-    - software-engineering/index.md
 
-    - Programming:
-      - software-engineering/programming/index.md
-      - Preparation:
-        - software-engineering/programming/preparation/ranking-analysis.md
-        - software-engineering/programming/preparation/encoding.md
-        - software-engineering/programming/preparation/interfaces.md
-        - software-engineering/programming/preparation/best-practices.md
+  - Programming:
+    - programming/index.md
+    - Preparation:
+      - programming/preparation/ranking-analysis.md
+      - programming/preparation/encoding.md
+      - programming/preparation/interfaces.md
+      - programming/preparation/best-practices.md
+    - Basic-Tools:
+      - programming/basic-tools/editor.md
+      - programming/basic-tools/git.md
+    - Python:
+      - programming/python/index.md
+      - programming/python/use-cases.md
+    - JavaScript:
+      - programming/javascript/index.md
+      - programming/javascript/use-cases.md
+    - C:
+      - programming/c/index.md
+      - programming/c/use-cases.md
+    - Go:
+      - programming/go/index.md
+      - programming/go/use-cases.md
+    - Rust:
+      - programming/rust/index.md
+      - programming/rust/use-cases.md
+    - Enterprise:
+      - Java:
+        - programming/java/index.md
+        - programming/java/use-cases.md
+      - C#:
+        - programming/csharp/index.md
+        - programming/csharp/use-cases.md
+      - C++:
+        - programming/cpp/index.md
+        - programming/cpp/use-cases.md
+    - Scripts:
+      - programming/scripts/lua.md
+      - programming/scripts/perl.md
+      - programming/scripts/ruby.md
+      - programming/scripts/php.md
+    - Assembly:
+        - programming/assembly/index.md
+        - programming/assembly/x86.md
+        - programming/assembly/arm.md
+    - Platforms:
+      - programming/platforms/swift.md
+      - programming/platforms/kotlin.md 
+    - Parallel:
+      - programming/parallel/index.md
+
+  - Databases:
+    - databases/index.md
+    - RDBMS:
+      - databases/rdbms/index.md
+      - databases/rdbms/postgresql.md
+      - databases/rdbms/sqlite.md
+      - databases/rdbms/mysql.md
+      - databases/rdbms/oracle.md
+      - databases/rdbms/sql-server.md
+    - Key-Value:
+      - databases/key-value/redis.md
+      - databases/key-value/memcached.md
+    - Document:
+      - databases/document/mongodb.md
+    - Search-Engine:
+      - databases/search-engine/elasticsearch.md
+      - databases/search-engine/lucene.md
+      - databases/search-engine/solr.md
+      - databases/search-engine/splunk.md
+    - Graph:
+      - databases/graph/neo4j.md
+    - Time-Series:
+      - databases/time-series/influxdb.md
+      - databases/time-series/prometheus.md
+    - Wide-Column:
+      - databases/wide-column/cassandra.md
+      - databases/wide-column/hbase.md
+
+  - Operating-System:
+      - operating-system/index.md
       - Basic-Tools:
-        - software-engineering/programming/basic-tools/editor.md
-        - software-engineering/programming/basic-tools/git.md
-      - Python:
-        - software-engineering/programming/python/index.md
-        - software-engineering/programming/python/use-cases.md
-      - JavaScript:
-        - software-engineering/programming/javascript/index.md
-        - software-engineering/programming/javascript/use-cases.md
-      - C:
-        - software-engineering/programming/c/index.md
-        - software-engineering/programming/c/use-cases.md
-      - Go:
-        - software-engineering/programming/go/index.md
-        - software-engineering/programming/go/use-cases.md
-      - Rust:
-        - software-engineering/programming/rust/index.md
-        - software-engineering/programming/rust/use-cases.md
-      - Enterprise:
-        - Java:
-          - software-engineering/programming/java/index.md
-          - software-engineering/programming/java/use-cases.md
-        - C#:
-          - software-engineering/programming/csharp/index.md
-          - software-engineering/programming/csharp/use-cases.md
-        - C++:
-          - software-engineering/programming/cpp/index.md
-          - software-engineering/programming/cpp/use-cases.md
-      - Scripts:
-        - software-engineering/programming/scripts/lua.md
-        - software-engineering/programming/scripts/perl.md
-        - software-engineering/programming/scripts/ruby.md
-        - software-engineering/programming/scripts/php.md
-      - Assembly:
-          - software-engineering/programming/assembly/index.md
-          - software-engineering/programming/assembly/x86.md
-          - software-engineering/programming/assembly/arm.md
-      - Platforms:
-        - software-engineering/programming/platforms/swift.md
-        - software-engineering/programming/platforms/kotlin.md 
-      - Parallel:
-        - software-engineering/programming/parallel/index.md
+        - operating-system/basic-tools/terminal.md
+        - operating-system/basic-tools/ssh.md
+        - operating-system/basic-tools/multiplexer.md
+      - Unix-like:
+        - operating-system/unix-like/index.md
+      - GNU/Linux:
+        - operating-system/gnu-linux/index.md
+        - operating-system/gnu-linux/shell.md
+        - operating-system/gnu-linux/gui.md
+        - operating-system/gnu-linux/syscall.md
+        - operating-system/gnu-linux/kernel.md
+        - operating-system/gnu-linux/debian.md
+        - operating-system/gnu-linux/rhel.md
+        - More-Distrs:
+          - operating-system/gnu-linux/distr/arch.md
+          - operating-system/gnu-linux/distr/alpine.md
+          - operating-system/gnu-linux/distr/suse.md
+      - Windows:
+        - operating-system/windows/index.md
+        - operating-system/windows/powershell.md
+        - operating-system/windows/gui.md
+        - operating-system/windows/windows-api.md
+        - operating-system/windows/windows-internals.md
+        - operating-system/windows/windows-server.md
+        - operating-system/windows/windows-iot.md
+      - Android:
+        - operating-system/android/index.md
+      - FreeBSD:
+        - operating-system/freebsd/index.md
+      - Darwin/XNU:
+        - operating-system/darwin-xnu/index.md
+  - Containers:
+      - containers/index.md
+      - containers/docker.md
+      - containers/k8s.md
+      - containers/lxc.md
+  - Virtualization:
+      - virtualization/index.md
+      - virtualization/kvm.md
+      - virtualization/hyper-v.md
+      - virtualization/esxi.md
+      - virtualization/hosted-vm.md
 
-    - Databases:
-      - software-engineering/databases/index.md
-      - RDBMS:
-        - software-engineering/databases/rdbms/index.md
-        - software-engineering/databases/rdbms/postgresql.md
-        - software-engineering/databases/rdbms/sqlite.md
-        - software-engineering/databases/rdbms/mysql.md
-        - software-engineering/databases/rdbms/oracle.md
-        - software-engineering/databases/rdbms/sql-server.md
-      - Key-Value:
-        - software-engineering/databases/key-value/redis.md
-        - software-engineering/databases/key-value/memcached.md
-      - Document:
-        - software-engineering/databases/document/mongodb.md
-      - Search-Engine:
-        - software-engineering/databases/search-engine/elasticsearch.md
-        - software-engineering/databases/search-engine/lucene.md
-        - software-engineering/databases/search-engine/solr.md
-        - software-engineering/databases/search-engine/splunk.md
-      - Graph:
-        - software-engineering/databases/graph/neo4j.md
-      - Time-Series:
-        - software-engineering/databases/time-series/influxdb.md
-        - software-engineering/databases/time-series/prometheus.md
-      - Wide-Column:
-        - software-engineering/databases/wide-column/cassandra.md
-        - software-engineering/databases/wide-column/hbase.md
-
-    - Operating-System:
-        - software-engineering/operating-system/index.md
-        - Basic-Tools:
-          - software-engineering/operating-system/basic-tools/terminal.md
-          - software-engineering/operating-system/basic-tools/ssh.md
-          - software-engineering/operating-system/basic-tools/multiplexer.md
-        - Unix-like:
-          - software-engineering/operating-system/unix-like/index.md
-        - GNU/Linux:
-          - software-engineering/operating-system/gnu-linux/index.md
-          - software-engineering/operating-system/gnu-linux/shell.md
-          - software-engineering/operating-system/gnu-linux/gui.md
-          - software-engineering/operating-system/gnu-linux/syscall.md
-          - software-engineering/operating-system/gnu-linux/kernel.md
-          - software-engineering/operating-system/gnu-linux/debian.md
-          - software-engineering/operating-system/gnu-linux/rhel.md
-          - More-Distrs:
-            - software-engineering/operating-system/gnu-linux/distr/arch.md
-            - software-engineering/operating-system/gnu-linux/distr/alpine.md
-            - software-engineering/operating-system/gnu-linux/distr/suse.md
-        - Windows:
-          - software-engineering/operating-system/windows/index.md
-          - software-engineering/operating-system/windows/powershell.md
-          - software-engineering/operating-system/windows/gui.md
-          - software-engineering/operating-system/windows/windows-api.md
-          - software-engineering/operating-system/windows/windows-internals.md
-          - software-engineering/operating-system/windows/windows-server.md
-          - software-engineering/operating-system/windows/windows-iot.md
-        - Android:
-          - software-engineering/operating-system/android/index.md
-        - FreeBSD:
-          - software-engineering/operating-system/freebsd/index.md
-        - Darwin/XNU:
-          - software-engineering/operating-system/darwin-xnu/index.md
-    - Containers:
-        - software-engineering/containers/index.md
-        - software-engineering/containers/docker.md
-        - software-engineering/containers/k8s.md
-        - software-engineering/containers/lxc.md
-    - Virtualization:
-        - software-engineering/virtualization/index.md
-        - software-engineering/virtualization/kvm.md
-        - software-engineering/virtualization/hyper-v.md
-        - software-engineering/virtualization/esxi.md
-        - software-engineering/virtualization/hosted-vm.md
-
-  - Network-Engineering:
-      - network-engineering/index.md
+  - Network:
+      - network/index.md
       - Data-Communication: 
-        - network-engineering/datacom/index.md
-        - network-engineering/datacom/routing.md
-        - network-engineering/datacom/switching.md
-        - network-engineering/datacom/emulator.md
-        - network-engineering/datacom/security-devices.md
-        - network-engineering/datacom/certification.md
+        - network/datacom/index.md
+        - network/datacom/routing.md
+        - network/datacom/switching.md
+        - network/datacom/emulator.md
+        - network/datacom/security-devices.md
+        - network/datacom/certification.md
       - Protocols:
-        - network-engineering/protocols/index.md
-        - network-engineering/protocols/dhcp.md
-        - network-engineering/protocols/ntp.md
-        - network-engineering/protocols/snmp.md
+        - network/protocols/index.md
+        - network/protocols/dhcp.md
+        - network/protocols/ntp.md
+        - network/protocols/snmp.md
       - NetDevOps:
-        - network-engineering/netdevops/index.md
-        - network-engineering/netdevops/network-automation.md
-        - network-engineering/netdevops/sdn.md
-        - network-engineering/netdevops/dpt.md
-        - network-engineering/netdevops/cloud-networking.md
-        - network-engineering/netdevops/nfv.md
+        - network/netdevops/index.md
+        - network/netdevops/network-automation.md
+        - network/netdevops/sdn.md
+        - network/netdevops/dpt.md
+        - network/netdevops/cloud-networking.md
+        - network/netdevops/nfv.md
       - Troubleshooting:
-        - network-engineering/troubleshooting/index.md
+        - network/troubleshooting/index.md
       - Use-Cases:
-        - network-engineering/use-cases/index.md
-        - network-engineering/use-cases/enterprise-network.md
-        - network-engineering/use-cases/dcn.md
+        - network/use-cases/index.md
+        - network/use-cases/enterprise-network.md
+        - network/use-cases/dcn.md
 
-  - Application-System:
-    - application-system/index.md
+  - Applications:
+    - applications/index.md
     - Web-Client:
-      - application-system/web-client/index.md
-      - application-system/web-client/web-browser.md
-      - application-system/web-client/cli-client.md 
-      - application-system/web-client/client-library.md
+      - applications/web-client/index.md
+      - applications/web-client/web-browser.md
+      - applications/web-client/cli-client.md 
+      - applications/web-client/client-library.md
     - Mobile:
-      - application-system/mobile/index.md
+      - applications/mobile/index.md
     - Desktop:
-      - application-system/desktop/index.md
+      - applications/desktop/index.md
       - CLI:
-        - application-system/desktop-client/cli/index.md
+        - applications/desktop-client/cli/index.md
       - Cross-Platforms:
-        - application-system/desktop-client/cross-platforms/index.md
+        - applications/desktop-client/cross-platforms/index.md
     - Web-Server:
-      - application-system/web-server/nginx.md
-      - application-system/web-server/apache.md
-      - application-system/web-server/openresty.md
-      - application-system/web-server/lighttpd.md
-      - application-system/web-server/more.md        
+      - applications/web-server/nginx.md
+      - applications/web-server/apache.md
+      - applications/web-server/openresty.md
+      - applications/web-server/lighttpd.md
+      - applications/web-server/more.md        
     - Web-Crawler:
-      - application-system/web-crawler/index.md
-    - application-system/application-server.md
+      - applications/web-crawler/index.md
+    - applications/application-server.md
     # - Application Server:
-      # - application-system/application-server/index.md
-    #   - application-system/application-server/use-cases.md
-      # - application-system/application-server/tomcat.md
-      # - application-system/application-server/jboss.md
-      # - application-system/application-server/django.md
-      # - application-system/application-server/other-application-servers.md
+      # - applications/application-server/index.md
+    #   - applications/application-server/use-cases.md
+      # - applications/application-server/tomcat.md
+      # - applications/application-server/jboss.md
+      # - applications/application-server/django.md
+      # - applications/application-server/other-application-servers.md
     - API:
-      - application-system/api/index.md
-      - application-system/api/restful.md
-      - application-system/api/graphql.md
-      - application-system/api/grpc.md
+      - applications/api/index.md
+      - applications/api/restful.md
+      - applications/api/graphql.md
+      - applications/api/grpc.md
     - Protocols:
-      - application-system/protocols/index.md
-      - application-system/protocols/http-https.md
+      - applications/protocols/index.md
+      - applications/protocols/http-https.md
       - More Application:
-        - application-system/protocols/application/dns.md
-        - application-system/protocols/application/email.md
-        - application-system/protocols/application/ftp-sftp.md
-        - application-system/protocols/application/telnet-ssh.md
-        - application-system/protocols/application/ldap.md
+        - applications/protocols/application/dns.md
+        - applications/protocols/application/email.md
+        - applications/protocols/application/ftp-sftp.md
+        - applications/protocols/application/telnet-ssh.md
+        - applications/protocols/application/ldap.md
       - Logical-Transport:
-        - application-system/protocols/logical-transport/index.md
-        - application-system/protocols/logical-transport/ssl-tls.md
-        - application-system/protocols/logical-transport/quic.md
-        - application-system/protocols/logical-transport/websockets.md
-        - application-system/protocols/logical-transport/webrtc.md
+        - applications/protocols/logical-transport/index.md
+        - applications/protocols/logical-transport/ssl-tls.md
+        - applications/protocols/logical-transport/quic.md
+        - applications/protocols/logical-transport/websockets.md
+        - applications/protocols/logical-transport/webrtc.md
       - Transport:
-        - application-system/protocols/transport/index.md
-        - application-system/protocols/transport/tcp.md
-        - application-system/protocols/transport/udp.md
-        - application-system/protocols/transport/sctp.md
+        - applications/protocols/transport/index.md
+        - applications/protocols/transport/tcp.md
+        - applications/protocols/transport/udp.md
+        - applications/protocols/transport/sctp.md
     - Entry:
-        - application-system/entry/index.md
-        - application-system/entry/dns.md
-        - application-system/entry/cdn.md
-        - application-system/entry/load-balancing.md
-        - application-system/entry/reverse-proxy.md
-        - application-system/entry/api-gateway.md
+        - applications/entry/index.md
+        - applications/entry/dns.md
+        - applications/entry/cdn.md
+        - applications/entry/load-balancing.md
+        - applications/entry/reverse-proxy.md
+        - applications/entry/api-gateway.md
     - Asynchronous:
-      - application-system/asynchronous/index.md
-      - application-system/asynchronous/event-driven.md
-      - application-system/asynchronous/pub-sub.md
-      - application-system/asynchronous/message-queues.md
-      - application-system/asynchronous/task-queues.md
+      - applications/asynchronous/index.md
+      - applications/asynchronous/event-driven.md
+      - applications/asynchronous/pub-sub.md
+      - applications/asynchronous/message-queues.md
+      - applications/asynchronous/task-queues.md
     # - Caching:
-    #   - application-system/caching/index.md
-      # - application-system/caching/in-memory-caching.md
-      # - application-system/caching/distributed-caching.md
-    - application-system/caching.md
-    - application-system/data-persistence.md
+    #   - applications/caching/index.md
+      # - applications/caching/in-memory-caching.md
+      # - applications/caching/distributed-caching.md
+    - applications/caching.md
+    - applications/data-persistence.md
     
   
 
-  - Cloud-Infrastructure:
-    - infrastructure/index.md
+  - Cloud:
+    - cloud/index.md
     - Cloud-Platforms:
-      - infrastructure/cloud-platforms/index.md
-      - infrastructure/cloud-platforms/aws.md
-      - infrastructure/cloud-platforms/azure.md
-      - infrastructure/cloud-platforms/gcp.md
-      - infrastructure/cloud-platforms/alibaba-cloud.md
-      - infrastructure/cloud-platforms/edge-cloud.md
-      - infrastructure/cloud-platforms/private-cloud.md
-    - infrastructure/index.md
+      - cloud/cloud-platforms/index.md
+      - cloud/cloud-platforms/aws.md
+      - cloud/cloud-platforms/azure.md
+      - cloud/cloud-platforms/gcp.md
+      - cloud/cloud-platforms/alibaba-cloud.md
+      - cloud/cloud-platforms/edge-cloud.md
+      - cloud/cloud-platforms/private-cloud.md
+    - cloud/index.md
     - DevOps:
-      - infrastructure/devops/index.md
-      - infrastructure/devops/cicd.md
-      - infrastructure/devops/configuration.md
-      - infrastructure/devops/environment.md
-      - infrastructure/devops/iac.md
-      - infrastructure/devops/gitops.md
-      - infrastructure/devops/deployment-strategies.md
+      - cloud/devops/index.md
+      - cloud/devops/cicd.md
+      - cloud/devops/configuration.md
+      - cloud/devops/environment.md
+      - cloud/devops/iac.md
+      - cloud/devops/gitops.md
+      - cloud/devops/deployment-strategies.md
     - Observability:
-      - infrastructure/observability/index.md
-      - infrastructure/observability/monitoring.md
+      - cloud/observability/index.md
+      - cloud/observability/monitoring.md
     - SRE:
-      - infrastructure/sre/index.md
+      - cloud/sre/index.md
     - Platform-Engineering:
-      - infrastructure/platform-engineering/index.md
+      - cloud/platform-engineering/index.md
 
 
   # Data-Systems
@@ -357,31 +353,31 @@ nav:
       - DataOps:
         - data-system/data-engineering/dataops/index.md
       
-  #  Embedded-System Topic
-  - Embedded-System:
-    - embedded-system/index.md
+  #  embedded Topic
+  - Embedded:
+    - embedded/index.md
     - Computer-Architecture:
-      -  embedded-system/computer-architecture/index.md
+      -  embedded/computer-architecture/index.md
     - Boards:
-      - embedded-system/boards/mcu.md
-      - embedded-system/boards/rtos.md
-      - embedded-system/boards/sbc.md
-      - embedded-system/boards/fpga.md
-      - embedded-system/boards/plc.md
+      - embedded/boards/mcu.md
+      - embedded/boards/rtos.md
+      - embedded/boards/sbc.md
+      - embedded/boards/fpga.md
+      - embedded/boards/plc.md
     - Use-Cases:
-      - embedded-system/use-cases/index.md
-      - embedded-system/use-cases/cyberdeck.md
-      # - embedded-system/use-cases/iot-device.md
-      # - embedded-system/use-cases/industrial-control.md
-      # - embedded-system/use-cases/consumer-electronics.md
-      # - embedded-system/use-cases/automotive-systems.md
-      # - embedded-system/use-cases/medical-devices.md
+      - embedded/use-cases/index.md
+      - embedded/use-cases/cyberdeck.md
+      # - embedded/use-cases/iot-device.md
+      # - embedded/use-cases/industrial-control.md
+      # - embedded/use-cases/consumer-electronics.md
+      # - embedded/use-cases/automotive-systems.md
+      # - embedded/use-cases/medical-devices.md
     - Internte-of-Things:
-      - embedded-system/iot/index.md
+      - embedded/iot/index.md
     - Hardware-Debugging:
-      - embedded-system/hardware-debugging/index.md
+      - embedded/hardware-debugging/index.md
 
-  - IoT-System:
+  - IoT:
     - iot/index.md
   
   # - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
