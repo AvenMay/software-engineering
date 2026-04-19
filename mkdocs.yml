@@ -364,8 +364,6 @@ nav:
       # - embedded/use-cases/consumer-electronics.md
       # - embedded/use-cases/automotive-systems.md
       # - embedded/use-cases/medical-devices.md
-    - Internte-of-Things:
-      - embedded/iot/index.md
     - Hardware-Debugging:
       - embedded/hardware-debugging/index.md
 
