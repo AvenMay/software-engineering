@@ -1,9 +1,9 @@
-# CLI-Client
+# CLI
 
 
 ## cURL
 
-- [cURL必知必会.pdf]({{ files_server }}/applications/curl/cURL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A.pdf)
+- [cURL必知必会.pdf]({{ files_server }}/applications/client/curl/cURL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A.pdf)
 
 ## Wget
 

@@ -204,9 +204,29 @@ nav:
         - network/datacom/certification.md
       - Protocols:
         - network/protocols/index.md
+        - network/protocols/index.md
+        - network/protocols/http-https.md
+        - More Application:
+          - network/protocols/application/dns.md
+          - network/protocols/application/email.md
+          - network/protocols/application/ftp-sftp.md
+          - network/protocols/application/telnet-ssh.md
+          - network/protocols/application/ldap.md
+        - Logical-Transport:
+          - network/protocols/logical-transport/index.md
+          - network/protocols/logical-transport/ssl-tls.md
+          - network/protocols/logical-transport/quic.md
+          - network/protocols/logical-transport/websockets.md
+          - network/protocols/logical-transport/webrtc.md
+        - Transport:
+          - network/protocols/transport/index.md
+          - network/protocols/transport/tcp.md
+          - network/protocols/transport/udp.md
+          - network/protocols/transport/sctp.md
         - network/protocols/dhcp.md
         - network/protocols/ntp.md
         - network/protocols/snmp.md
+
       - NetDevOps:
         - network/netdevops/index.md
         - network/netdevops/network-automation.md
@@ -223,60 +243,32 @@ nav:
 
   - Applications:
     - applications/index.md
-    - Web-Client:
-      - applications/web-client/index.md
-      - applications/web-client/web-browser.md
-      - applications/web-client/cli-client.md 
-      - applications/web-client/client-library.md
-    - Mobile:
-      - applications/mobile/index.md
-    - Desktop:
-      - applications/desktop/index.md
-      - CLI:
-        - applications/desktop-client/cli/index.md
-      - Cross-Platforms:
-        - applications/desktop-client/cross-platforms/index.md
+    - Application-Client:
+      - applications/client/web-browser.md
+      - Mobile:
+        - applications/client/mobile/index.md
+      - Desktop:
+        - applications/client/desktop/index.md
+        - Cross-Platforms:
+          - applications/client/desktop/cross-platforms/index.md
+      - Crawler:
+        - applications/crawler/index.md
+      - applications/client/cli.md 
+      - applications/client/library.md
     - Web-Server:
       - applications/web-server/nginx.md
       - applications/web-server/apache.md
+      - applications/web-server/caddy.md
+      - applications/web-server/traefik.md
       - applications/web-server/openresty.md
-      - applications/web-server/lighttpd.md
-      - applications/web-server/more.md        
-    - Web-Crawler:
-      - applications/web-crawler/index.md
+      - applications/web-server/more.md
+    # Application-Server:     
     - applications/application-server.md
-    # - Application Server:
-      # - applications/application-server/index.md
-    #   - applications/application-server/use-cases.md
-      # - applications/application-server/tomcat.md
-      # - applications/application-server/jboss.md
-      # - applications/application-server/django.md
-      # - applications/application-server/other-application-servers.md
     - API:
       - applications/api/index.md
       - applications/api/restful.md
       - applications/api/graphql.md
       - applications/api/grpc.md
-    - Protocols:
-      - applications/protocols/index.md
-      - applications/protocols/http-https.md
-      - More Application:
-        - applications/protocols/application/dns.md
-        - applications/protocols/application/email.md
-        - applications/protocols/application/ftp-sftp.md
-        - applications/protocols/application/telnet-ssh.md
-        - applications/protocols/application/ldap.md
-      - Logical-Transport:
-        - applications/protocols/logical-transport/index.md
-        - applications/protocols/logical-transport/ssl-tls.md
-        - applications/protocols/logical-transport/quic.md
-        - applications/protocols/logical-transport/websockets.md
-        - applications/protocols/logical-transport/webrtc.md
-      - Transport:
-        - applications/protocols/transport/index.md
-        - applications/protocols/transport/tcp.md
-        - applications/protocols/transport/udp.md
-        - applications/protocols/transport/sctp.md
     - Entry:
         - applications/entry/index.md
         - applications/entry/dns.md
