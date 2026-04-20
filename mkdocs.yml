@@ -181,17 +181,19 @@ nav:
         - operating-system/freebsd/index.md
       - Darwin/XNU:
         - operating-system/darwin-xnu/index.md
-  - Containers:
-      - containers/index.md
-      - containers/docker.md
-      - containers/k8s.md
-      - containers/lxc.md
   - Virtualization:
       - virtualization/index.md
-      - virtualization/kvm.md
-      - virtualization/hyper-v.md
-      - virtualization/esxi.md
-      - virtualization/hosted-vm.md
+      - Containers:
+        - virtualization/containers/index.md
+        - virtualization/containers/docker.md
+        - virtualization/containers/k8s.md
+        - virtualization/containers/lxc.md
+      - Virtual-Machine:
+        - virtualization/vm/index.md
+        - virtualization/vm/kvm.md
+        - virtualization/vm/hyper-v.md
+        - virtualization/vm/esxi.md
+        - virtualization/vm/hosted-vm.md
 
   - Network:
       - network/index.md
