@@ -348,7 +348,7 @@ nav:
         - data-system/data-engineering/dataops/index.md
       
   #  embedded Topic
-  - Embedded/IoT:
+  - Embedded:
     - embedded/index.md
     - Computer-Architecture:
       -  embedded/computer-architecture/index.md
@@ -366,11 +366,10 @@ nav:
       # - embedded/use-cases/consumer-electronics.md
       # - embedded/use-cases/automotive-systems.md
       # - embedded/use-cases/medical-devices.md
-    - IoT:
-      - embedded/iot/index.md
     - Hardware-Debugging:
       - embedded/hardware-debugging/index.md
-  
+  - IoT:
+    - iot/index.md
   # - Cybersecurity-Matrix: https://matrix.cyberspace.bar/
 
 plugins:
