@@ -348,7 +348,7 @@ nav:
         - data-system/data-engineering/dataops/index.md
       
   #  embedded Topic
-  - Embedded-IoT:
+  - Embedded/IoT:
     - embedded/index.md
     - Computer-Architecture:
       -  embedded/computer-architecture/index.md
