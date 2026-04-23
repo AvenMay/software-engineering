@@ -197,6 +197,31 @@ nav:
 
   - Network:
       - network/index.md
+      - Application:
+        - network/applayer/index.md
+        - network/applayer/http-https.md
+        - network/applayer/dns.md
+        - More:
+          - network/protocols/more/email.md
+          - network/protocols/more/ftp.md
+          - network/protocols/more/ldap.md
+          - network/protocols/more/ntp.md
+          - network/protocols/more/smtp.md
+      - Middle:
+        - network/middle/index.md
+        - network/middle/ssl-tls.md
+        - network/middle/quic.md
+        - network/middle/websockets.md
+        - network/middle/webrtc.md
+      - Transport:
+        - network/transport/index.md
+        - network/transport/tcp.md
+        - network/transport/udp.md
+        - network/transport/sctp.md
+      - Internet:
+        - network/internet/index.md
+      - Link:
+        - network/link/index.md
       - Data-Communication: 
         - network/datacom/index.md
         - network/datacom/routing.md
@@ -204,44 +229,22 @@ nav:
         - network/datacom/emulator.md
         - network/datacom/security-devices.md
         - network/datacom/certification.md
-      - Protocols:
-        - network/protocols/index.md
-        - network/protocols/index.md
-        - network/protocols/http-https.md
-        - More Application:
-          - network/protocols/application/dns.md
-          - network/protocols/application/email.md
-          - network/protocols/application/ftp-sftp.md
-          - network/protocols/application/telnet-ssh.md
-          - network/protocols/application/ldap.md
-        - Logical-Transport:
-          - network/protocols/logical-transport/index.md
-          - network/protocols/logical-transport/ssl-tls.md
-          - network/protocols/logical-transport/quic.md
-          - network/protocols/logical-transport/websockets.md
-          - network/protocols/logical-transport/webrtc.md
-        - Transport:
-          - network/protocols/transport/index.md
-          - network/protocols/transport/tcp.md
-          - network/protocols/transport/udp.md
-          - network/protocols/transport/sctp.md
-        - network/protocols/dhcp.md
-        - network/protocols/ntp.md
-        - network/protocols/snmp.md
-
+        - Use-Cases:
+          - network/datacom/use-cases/index.md
+          - network/datacom/use-cases/enterprise-network.md
+          - network/datacom/use-cases/dcn.md
+        - Troubleshooting:
+          - network/datacom/troubleshooting/index.md
+      - SDN:
+        - network/sdn/index.md
+        - network/sdn/dpt.md
+        - network/sdn/cloud-networking.md
+        - network/sdn/nfv.md
       - NetDevOps:
         - network/netdevops/index.md
         - network/netdevops/network-automation.md
-        - network/netdevops/sdn.md
-        - network/netdevops/dpt.md
-        - network/netdevops/cloud-networking.md
-        - network/netdevops/nfv.md
-      - Troubleshooting:
-        - network/troubleshooting/index.md
-      - Use-Cases:
-        - network/use-cases/index.md
-        - network/use-cases/enterprise-network.md
-        - network/use-cases/dcn.md
+
+
 
   - Applications:
     - applications/index.md
