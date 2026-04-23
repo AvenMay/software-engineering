@@ -105,10 +105,10 @@ nav:
         - programming/cpp/index.md
         - programming/cpp/use-cases.md
     - Scripts:
-      - programming/scripts/lua.md
-      - programming/scripts/perl.md
       - programming/scripts/ruby.md
+      - programming/scripts/lua.md
       - programming/scripts/php.md
+      - programming/scripts/perl.md
     - Assembly:
         - programming/assembly/index.md
         - programming/assembly/x86.md
