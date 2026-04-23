@@ -72,7 +72,6 @@ nav:
   - Programming:
     - programming/index.md
     - Preparation:
-      - programming/preparation/ranking-analysis.md
       - programming/preparation/encoding.md
       - programming/preparation/interfaces.md
       - programming/preparation/best-practices.md
