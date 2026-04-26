@@ -118,6 +118,35 @@ nav:
     - Parallel:
       - programming/parallel/index.md
 
+
+  - Databases:
+    - databases/index.md
+    - RDBMS:
+      - databases/rdbms/index.md
+      - databases/rdbms/postgresql.md
+      - databases/rdbms/sqlite.md
+      - databases/rdbms/mysql.md
+      - databases/rdbms/oracle.md
+      - databases/rdbms/sql-server.md
+    - Key-Value:
+      - databases/key-value/redis.md
+      - databases/key-value/memcached.md
+    - Document:
+      - databases/document/mongodb.md
+    - Search-Engine:
+      - databases/search-engine/elasticsearch.md
+      - databases/search-engine/lucene.md
+      - databases/search-engine/solr.md
+      - databases/search-engine/splunk.md
+    - Graph:
+      - databases/graph/neo4j.md
+    - Time-Series:
+      - databases/time-series/influxdb.md
+      - databases/time-series/prometheus.md
+    - Wide-Column:
+      - databases/wide-column/cassandra.md
+      - databases/wide-column/hbase.md
+      
   - Operating-System:
       - operating-system/index.md
       - Tools:
@@ -152,35 +181,6 @@ nav:
         - operating-system/freebsd/index.md
       - Darwin/XNU:
         - operating-system/darwin-xnu/index.md
-
-  - Databases:
-    - databases/index.md
-    - RDBMS:
-      - databases/rdbms/index.md
-      - databases/rdbms/postgresql.md
-      - databases/rdbms/sqlite.md
-      - databases/rdbms/mysql.md
-      - databases/rdbms/oracle.md
-      - databases/rdbms/sql-server.md
-    - Key-Value:
-      - databases/key-value/redis.md
-      - databases/key-value/memcached.md
-    - Document:
-      - databases/document/mongodb.md
-    - Search-Engine:
-      - databases/search-engine/elasticsearch.md
-      - databases/search-engine/lucene.md
-      - databases/search-engine/solr.md
-      - databases/search-engine/splunk.md
-    - Graph:
-      - databases/graph/neo4j.md
-    - Time-Series:
-      - databases/time-series/influxdb.md
-      - databases/time-series/prometheus.md
-    - Wide-Column:
-      - databases/wide-column/cassandra.md
-      - databases/wide-column/hbase.md
-
 
   - Virtualization:
       - virtualization/index.md
