@@ -328,10 +328,6 @@ nav:
   # Data-Systems
   - Data-System:
     - data-system/index.md
-    - Data-Analysis:
-      - data-system/data-analysis/index.md
-    - Data-Visualization:
-        - data-system/data-visualization/index.md
     - Data-Engineering:
       - data-system/data-engineering/index.md
       # - ETL Processes:
@@ -348,8 +344,10 @@ nav:
       #   - data-system/data-engineering/data-integration/index.md
       # -  Data Governance:
       #   - data-system/data-engineering/data-governance/index.md
-      - DataOps:
-        - data-system/data-engineering/dataops/index.md
+    - DataOps:
+      - data-system/dataops/index.md
+    - Data-Visualization:
+        - data-system/visualization/index.md
       
   #  embedded Topic
   - Embedded:

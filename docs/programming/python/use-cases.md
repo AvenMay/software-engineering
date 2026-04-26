@@ -39,7 +39,7 @@ Beautiful Code
 ------
 
 
-## CLI/TUI Programming
+## CLI/TUI
 
 |Module|CLI   |TUI   |
 |:----:|:----:|:----:|
@@ -58,7 +58,7 @@ Beautiful Code
 
 ------
 
-## GUI Programming
+## GUI
 
 - Tkinter
 - PyQt/PySide
@@ -114,16 +114,10 @@ Beautiful Code
     - Pcapy
     - dpkt
 
-------
-
-## Scripting
-
-- subprosess
-- sh
 
 ------
 
-## Web/API Application-Server
+## Application-Server
 
 - [WSGI](https://docs.python.org/3/library/wsgiref.html)
     - uWSGI
@@ -163,11 +157,12 @@ Beautiful Code
 
 ## Web Crawler
 
+- [Python网络爬虫权威指南（第2版） PDF]({{ files_server }}/programming/python/advanced/Python网络爬虫权威指南（第2版）.pdf)
 - [Python3 反爬虫原理与绕过实战 PDF]({{ files_server }}/programming/python/advanced/Python3%20反爬虫原理与绕过实战.pdf)
 - [Python3 网络爬虫开发实战 第2版 PDF]({{ files_server }}/programming/python/advanced/Python3%20网络爬虫开发实战%20第2版.pdf)
 - [Python网络数据采集 PDF]({{ files_server }}/programming/python/advanced/Python网络数据采集.pdf)
 - [反爬虫AST原理与还原混淆实战 PDF]({{ files_server }}/programming/python/advanced/反爬虫AST原理与还原混淆实战.pdf)
-- [精通Python爬虫框架Scrapy EPUB]({{ files_server }}/programming/python/advanced/精通Python爬虫框架Scrapy.epub)
+- [精通Python爬虫框架Scrapy PDF]({{ files_server }}/programming/python/advanced/精通Python爬虫框架Scrapy.pdf)
 
 - Data Scraping
     - HTTP/URL
@@ -186,6 +181,38 @@ Beautiful Code
     - PySpider
     - EasySpider
 - JavaScript Reverse Engineering
+
+
+------
+
+## Data Analysis
+
+Books
+
+- [Python数据科学手册 PDF]({{ files_server }}/programming/python/advanced/Python数据科学手册.pdf)
+- [命令行中的数据科学 PDF]({{ files_server }}/programming/python/advanced/命令行中的数据科学.pdf)
+- [利用Python进行数据分析 EPUB]({{ files_server }}/programming/python/advanced/利用Python进行数据分析.epub)
+
+Engines
+
+- Pandas
+- Polars
+- DuckDB
+
+Advanced
+
+- PyArrow
+- Numpy
+
+IDE
+
+- Jupyter-Notebook
+- Marimo
+
+Visualization
+
+- Metabase
+- Grafana
 
 ------
 
@@ -208,13 +235,13 @@ Beautiful Code
 
 ------
 
-## Logging Tools
+## Logging
 
 - Loguru
 
 ------
 
-## Automated Testing
+## Testing
 
 - pytest
 - Robot-Framework
@@ -222,35 +249,14 @@ Beautiful Code
 
 ------
 
-## Automated-Operations
+## OS/Scripting
+
+- subprosess
+- sh
 
 - [Python Linux系统管理与自动化运维 PDF]({{ files_server }}/programming/python/advanced/Python%20Linux系统管理与自动化运维.pdf)
 - [Python自动化运维 EPUB]({{ files_server }}/programming/python/advanced/Python自动化运维.epub)
 - Diamond
-
-------
-
-## Data-Science
-
-- Tools
-    - JupyterLab
-    - Marimo
-- Data Processing & Analysis
-    - Polars
-    - Pandas
-    - Numpy
-    - SciPy
-- Data Visualization
-    - Matplotlib
-    - Seaborn
-    - Plotly
-    - Bokeh
-
-- Machine-Learing
-    - Scikit-learn
-    - TensorFlow
-    - PyTorch
-    - Keraas
 
 ------
 
@@ -288,8 +294,9 @@ Beautiful Code
 
 ------
 
-## Game Development
+## Game
 
 - Pygame
 - Arcade
 - Pyglet
+
